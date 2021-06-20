@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <title>PRACTICE HTML IMPORTANT TAG & SOME CSS</title>
+</head>
+<body>
+
+    
+    <h1>Home Work Practice Class 03 Html & Some Css</h1>
+    <hr>
+    <!-- semantic tag practice start -->
+    <h2><var>Seman</var>tic tag list and try to practice</h2>
+    <ul type="square">
+        <li>header</li>
+        <li>footer</li>
+        <li>section</li>
+        <li>main</li>
+        <li>aside</li>
+        <li>article</li>
+        <li>details</li>
+        <li>summary</li>
+        <li>time</li>
+        <li>figure</li>
+        <li>figcaption</li>
+    </ul>
+
+
+    <h3>Semantic header:</h3>
+
+    <header class="top-header">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Portfolio</a></li>
+        </ul>
+    </header>
+
+    <footer>
+        <h3>Semantic footer:</h3>
+        <p>&copy;All right reserved <a href="https://www.linkedin.com/in/developerrahat" target="_blank">Developer Rahat</a></p>
+    </footer>
+
+    <section>
+        <h3>Semantic section:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptas ullam neque, maiores fugit, veniam obcaecati libero doloribus, delectus animi quidem pariatur facere illo sint repellendus! Dicta, provident consequatur natus veniam reprehenderit dignissimos saepe autem delectus fugiat enim nesciunt illo sed cupiditate unde repellendus architecto consectetur? Soluta atque sunt libero.</p>
+    </section>
+
+    <main>
+        <article>
+            <h3>Semantic main:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nobis minima consequuntur. Dolores, modi? Assumenda consequuntur, cumque veritatis tempora ratione veniam voluptates dolore illum aut laudantium, consequatur, quae itaque esse non beatae eum nihil in expedita eligendi blanditiis quaerat. Id?sn</p>
+        </article>
+    </main>
+
+    <aside>
+        <h3>Semantic asise:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil aliquid voluptatum dicta! Neque harum quisquam accusamus veniam ducimus cum obcaecati iure nisi temporibus eius eveniet magnam quibusdam, laudantium, doloribus commodi doloremque pariatur ea provident ab id tenetur eum dolore. Quis ipsam expedita nisi debitis aliquam libero officiis dicta in!</p>
+    </aside>
+    <br>
+
+    <details>
+        <h3>Semantic details:</h3>
+
+        <summary>More details</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellendus corporis quibusdam distinctio. Quam fugiat ipsa, earum blanditiis, praesentium eveniet numquam aut, doloremque atque omnis quis incidunt alias. Impedit nesciunt nostrum vitae corporis nisi modi ipsa accusamus praesentium aliquam porro. Temporibus nobis totam ipsa accusantium minima, quod cumque asperiores placeat?</p>
+    </details>
+
+    <h3>Semantic figure:</h3>
+    <figure style="background-color: beige;">
+
+        <h3>Semantic figure:</h3>
+        <img src="./images/visiting-card-10011.jpg" alt="visiting card" width="350">
+        <figcaption>my visiting card 2021</figcaption>
+    </figure>
+
+    <h3>Semantic mark:</h3>
+    <p>Lorem <mark>ipsum dolor sit amet</mark> consectetur adipisicing elit. A, quo.</p>
+
+
+    <h3>Semantic nav:</h3>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Service</a>
+        <a href="">Contact</a>
+    </nav>
+
+    <!--semantic tag practice end-->
+
+    <!-- Non-semantic tag -->
+    <h2 class="n-semantic">Non-semantic tag are div and span</h2>
+
+    <div>this is div which is non-semantic tag</div>
+    <span>The span is a non-semantic tag</span>
+
+    <!-- Some boolean attribute peactice -->
+
+    <h2 id="boolean">Some Boolean Attribute Practice</h2>
+
+    <ul style="circle">
+        
+        <li>controls</li>
+        <li>autoplay</li>
+        <li>disable</li>
+        <li>checked</li>
+        <li>readonly</li>
+        <li>autofocus</li>
+    </ul>
+
+    <h3>Boolean autoplay:</h3>
+
+    <audio controls autoplay>
+        <source src="./audios/sorry-dipannita-by-amit-17851-29483.mp3" type="">
+    </audio>
+
+    <h3>Boolean disable & autofocus:</h3>
+    <p>The first name is disable.You can't use it but you see that the last name was around autofocus.</p>
+    <form action="">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="first name" disabled> <br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="last name" autofocus>
+    </form>
+
+    <h3>Boolean checked:</h3>
+    <p>The 1st checkbox is not checked but the 2nd checkbox already have checked</p>
+    <input type="checkbox" value="gender" name="male" checked>
+    <input type="checkbox" value="gender" name="male">
+
+    <h3>Boolean readonly</h3>
+    <p>You can't change this readonly text.You can just read it.</p>
+    <input type="text" value="Readonly" readonly>
+
+
+
+
+    <h2>Using iframe by embed copy url</h2>
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233726.06208597973!2d90.4459778021491!3d23.748459172614552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755ca24bc895b49%3A0x9810d2158dc3a536!2z4Kao4Ka-4Kaw4Ka-4Kav4Ka84Kaj4KaX4Kae4KeN4KacIOCmnOCnh-CmsuCmvg!5e0!3m2!1sbn!2sbd!4v1623268788839!5m2!1sbn!2sbd" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <iframe width="600" height="500" src="https://www.youtube.com/embed/9mbmlEWp1nA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    <footer class="footer-area">
+
+        <p>&copy;All right reserved 2021.<a href="https://www.linkedin.com/in/developerrahat" target="_blank" >Developer Rahat</a></p>
+
+    </footer>
+
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+    
+</body>
+</html>

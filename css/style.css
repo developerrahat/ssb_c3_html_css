@@ -1,0 +1,98 @@
+body{
+    scroll-behavior: smooth;
+}
+
+body{
+    border: 2px dotted red;
+    
+}
+body:hover{
+    background:linear-gradient(rgba(39, 255, 50, .5),rgba(170, 3, 248, 0.5));
+    transition:.5s;
+    color: #000000;
+}
+body:hover h2{
+    background: white;
+    color: black;
+}
+.top-header{
+    background: cadetblue;
+    text-align: center;
+
+
+}
+.top-header ul{}
+.top-header ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.top-header ul li a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding:20px 30px;
+    border-right: 1px solid #ddd;
+    transition: .5s;
+
+}
+.top-header ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.top-header ul li a:hover{
+    background: rgb(69, 127, 129);
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    background: black;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-style: oblique;
+    text-decoration: underline;
+    text-shadow: 1px 1px red;
+    font-family: 'Lobster Two', cursive;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    background: chartreuse;
+    color: red;
+    border: 2px solid salmon;
+    text-shadow: 1px 1px black;
+}
+.n-semantic{
+    background: red;
+    color: rgb(75, 2, 2);
+}
+h3{
+    color: red;
+}
+
+aside{
+    background:fuchsia;
+    width: 300px;
+    text-align: center;
+    float: right;
+
+}
+
+
+#boolean{
+    color: springgreen;
+    background: purple;
+    border: none;
+}
+
+.footer-area{
+    background:linear-gradient(rgb(255, 0, 221, .5), rgba(81,255,0, .5));
+    color: white;
+    padding:30px 0;
+    text-align: center;
+}
+
+.footer-area a{
+    font-size: 22px;
+    font-family: 'Lobster Two', cursive;
+
+}
